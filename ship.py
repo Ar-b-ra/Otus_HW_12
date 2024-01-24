@@ -1,6 +1,6 @@
 class Ship:
-    def __init__(self, locality):
-        self.locality = locality
+    def __init__(self, area):
+        self.area = area
 
     def resolve_collision(self, *args, **kwargs):
-        pass # to implement
+        pass  # to implement
